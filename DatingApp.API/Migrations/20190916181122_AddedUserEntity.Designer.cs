@@ -27,7 +27,7 @@ namespace DatingApp.API.Migrations
 
                     b.Property<byte[]>("PasswordSalt");
 
-                    b.Property<int>("Username");
+                    b.Property<string>("Username");
 
                     b.HasKey("Id");
 
